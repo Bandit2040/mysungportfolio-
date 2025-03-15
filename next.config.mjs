@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "/mysungportfolio",  // 👈 ใส่ชื่อ Repository ของคุณ
-    assetPrefix: "/your-repo-name/",
+    basePath: "/Bandit2040", // 👈 เปลี่ยนเป็นชื่อ Repo ของคุณ
+    assetPrefix: "/Bandit2040/",
     images: {
-      unoptimized: true, // 👈 ปิด Image Optimization เพราะ Next.js ใช้ Static
+      unoptimized: true, // ปิด Image Optimization
     },
   };
   
